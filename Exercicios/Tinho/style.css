@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to left, #00635A, #009688, #32A89C, #009688, #00635A);
+    background-attachment: fixed;
+    color: rgb(255, 255, 255);
+    
+}
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    width: auto;
+    padding: auto;
+    height: auto;
+    margin: auto;
+    border: 10px solid rgba(10, 5, 5, 0.658);
+    border-radius: 50px;
+    box-shadow: 2px 1.5px 1px rgb(221, 212, 212);
+    text-align: center;
+}
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    width: 800px;
+    padding: 10px 10px 10px 10px;
+    height: auto;
+    margin: 15px auto 10px auto;
+    border: 10px solid rgba(10, 5, 5, 0.658);
+    border-radius: 50px;
+    box-shadow: 2px 1.5px 1px rgb(221, 212, 212);
+    text-align: center; 
+}
+h1{
+    margin:auto;
+}
+h2{
+    margin: auto;
+}
+
+
+#salario{
+    color: rgb(0, 0, 0);
+    margin: 20px 10px 20px 90px;
+    text-align: center;
+    overflow: hidden;
+    font-size: 0.8em;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+  #enviar{
+    background: #fff;
+    border: 2px solid #333;
+    border-radius: 5px;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 10px;
+    margin-bottom: 18px;    
+}
+#apagar{
+    background: #fff;
+    border: 2px solid #333;
+    border-radius: 5px;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 10px;
+    margin-bottom: 18px;
+}
+#novo{
+    color: rgb(0, 0, 0);
+    margin: 0px 0px;
+    text-align: center;
+    font-size: 0.8em;
+    border: 2px solid #333;
+    border-radius: 5px;
+    width: 300px;
+    height: 35px;
+}
+div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    width: 600px;
+    padding: 10px 10px 10px 10px;
+    height: auto;
+    margin: 20px auto;
+    border: 10px solid rgba(10, 5, 5, 0.658);
+    border-radius: 50px;
+    box-shadow: 2px 1.5px 1px rgb(221, 212, 212);
+    text-align: center; 
+}
+
+li{
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+    text-align: auto;
+    font-size: 1.3em;
+  }
+footer{
+    margin: auto;
+    position:  sticky;
+    height: 100%;
+    width: auto;
+    font-size: 1.5em;
+    text-align: center;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}

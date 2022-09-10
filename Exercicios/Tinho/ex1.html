@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aumento de salário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Aumento de salário</h1>
+        <p>Parabéns! Você consquistou um aumento de salário, preencha as informaçoes a seguir para descobrir seu novo aumento.</p>
+        
+        <form method="post" action="#">
+            <label for="currency-field"><strong>Qual seu salário atual?</strong></label><br>
+            <input type="number" name="salario" id="salario" value="" data-type="currency" placeholder="$1,000.00">
+            <input type="button" value="Enviar" id="enviar" onclick="envio()"  >
+            <button type="reset" id="apagar" onclick="apaga()">Apagar</button>
+        </form>
+        </header>
+    <main>
+        <h1><strong>Novo salário</strong></h1>
+        <p><div id="res">
+            Por favor digite o valor do seu salário acima.
+        </div></br> 
+        </p>
+    </main>
+    <div id="dados">
+        <h1>Base de dados para aumento de salário</h1><br>
+            <ul type="square">
+                <li>Salário até R$1250,00 aumento de 20%</li>
+                <li>Salário até R$1750,00 aumento de 15%</li>
+                <li>Salário até R$2500,00 aumento de 10%</li>
+                <li>Salário superior a R$2500 aumento de 5%</li>
+            </ul>
+    </div>
+    <footer>
+        <p>&copy; Gabriel Brito</p>
+     </footer>
+
+    <script src="script.js">
+    </script>
+</body>
+</html>
